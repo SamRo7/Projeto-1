@@ -1,0 +1,225 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* HEADER */
+
+header {
+    padding: 48px 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+header nav ul { 
+    display: flex;
+    align-items: center;
+    gap: 64px;
+}
+
+ul #atalhos { 
+    list-style-type: none;
+}
+
+header nav ul li a { 
+    font-family: "DM Sans", sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+/* WELCOME SECTION */
+
+.Welcome {
+    padding: 24px 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#WelcomeText { 
+    font-family: "DM Sans", sans-serif;
+    font-size: 48px;
+    padding-top: 24px;
+    width: 700px;
+}
+
+h1 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: bolder;
+    font-size: 72px;
+    letter-spacing: -7px;
+    text-decoration-line: underline;
+    text-decoration-color: #D0FA12;
+    text-decoration-thickness: 16px;
+}
+
+/* LOGOS */
+
+.Logos { 
+    background-color: #FAFAFA;
+    padding: 48px 120px;
+    font-family: "DM Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Itens p { 
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.Logos img { 
+    margin-bottom: 12px;
+    height: 48px;
+}
+
+#caption {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    width: 220px;
+}
+
+/* SOBRE MIM */
+
+.About {
+    padding-top: 124px;
+    background-color: black;
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+}
+
+.About img {
+    height: 840px;
+}
+
+.About h2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    width: 400px;
+} 
+
+#Quote { 
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 12px;
+}
+.AboutText { 
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    padding-right: 120px;
+}
+
+.AboutText p {
+    padding-top: 24px;
+    width: 480px;
+}
+
+#Translate {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #D0FA12;
+    width: 340px;
+    padding-bottom: 240px;
+}
+
+/* CONTATO */
+
+.Contact { 
+    display: flex;
+    justify-content: space-between;
+    padding: 48px 120px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.Contact h2 { 
+    font-weight: bolder;
+    font-size: 54px;
+    width: 400px;
+    line-height: 100%;
+}
+
+.Contact p { 
+    font-size: 24px;
+    padding-top: 40px;
+    width: 480px;
+}
+
+.Contact .Forms form {
+    display: grid; 
+    gap: 16px;
+}
+
+.Contact .Forms form input, textarea {
+    font-family:"DM Sans", sans-serif;
+    background-color: #ebebeb;
+    border-style: none;
+    padding: 24px 16px;
+    width: 360px;
+}
+
+.Contact .Forms form input:focus{ 
+    background-color: #ffffff;
+}
+
+
+textarea {
+    height: 184px;
+    resize: none;
+}
+
+textarea:focus {
+    background-color: #ffffff;
+}
+
+.Contact .Forms form button {
+    background-color: #D0FA12;
+    border-style: none;
+    height: 64px;
+    font-family:"DM Sans", sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.Contact .Forms form button:hover {
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.MyContact p {
+    font-size: 20px;
+    color: #818181;
+    padding-top: 40px;
+    width: 240px;
+}
+
+/* RODAPE */
+
+footer { 
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 64px 120px;
+    color: #ffffff;
+    font-family:"DM Sans", sans-serif;
+    align-items: center;
+}
+
+footer div p { 
+    padding-top: 12px;
+    font-size: 14px;
+}
+
+.Social{ 
+    display: flex;
+    gap: 48px;
+}
